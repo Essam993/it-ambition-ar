@@ -1,0 +1,45 @@
+#demo-mobile-wrapper{
+  min-height: 200vmin;
+  width: 100%;
+  text-align: center;  
+}
+
+#mobile-outer {
+  background-image: url("https://image.ibb.co/bucnbL/black-iphone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+#demo-iframe #mobile-outer {
+  height: 167vmin;
+  width: 80vmin;
+  margin: 2vmin 1.5vmin;
+  position: absolute;
+ }
+
+#demo-iframe #mobile-outer .image {
+  position: absolute;
+  top: 14vmin;
+  left: 3vmin;
+  height: 135vmin;
+  width:1px;
+  min-width: 74vmin;
+    overflow: auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+
+
+@media(max-width: 620px)
+{
+  #demo-mobile-wrapper
+  {
+    padding-left: 20px;;
+  }
+}
+
+
