@@ -53,24 +53,8 @@
 <body>
 
   <div id="overlayer"></div>
-  <div class="loader text-center">
-    <div class="spinner-grow" style="width: 10rem; height: 10rem; color: brown;" role="status">
-      <span class="sr-only">Loading...</span>
-    </div>
-  </div>
+   
 
-  <div style="position: absolute; right: 0; top: 50px; z-index: 1000000000000000000; ">
-    <div class="btn-group dropleft">
-      <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        اللغه
-      </button>
-      <div class="dropdown-menu text-center">
-        <!-- Dropdown menu links -->
-        <a href="http://itambition.com/ar/toys.html" class="scroll-top smoothscroll text-black">AR</a><br>
-        <a href="http://itambition.com/toys.html" class="scroll-top smoothscroll text-black">En</a>
-  </div>
-    </div>
-  </div>
 
 
   <div class="site-wrap">
@@ -85,69 +69,74 @@
     </div> <!-- .site-mobile-menu -->
 
 
+    <div style="position: absolute; left: 0; top: 150px; z-index: 3; direction: ltr;">
+
+      <div class="btn-group dropdown">
+        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          <i class="fas fa-globe"></i>
+        </button>
+        <div class="dropdown-menu pl-3">
+          <!-- Dropdown menu links -->
+          <a href="http://itambition.com/ar/toys.html" class=" text-black">عربي</a><br>
+          <a href="http://itambition.com/toys.html" class=" text-black">English</a>
+        </div>
+      </div>
+    </div>
 
 
     <!-- NAVBAR -->
-    <header class="site-navbar" id="top">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html"><img id="logo-only" src="images/logo/logo.png" class="mt-2"
-                alt="it ambition"><img id="logo-text" src="images/logo/logo_text.png" alt=""></a></div>
-
-
-
-
-          <nav class="mx-auto site-navigation" style="z-index: 1000000; ">
-            <ul class="site-menu js-clone-nav d-none d-lg-block">
-              <li><a href="index.html#about" class="scroll-button smoothscroll ml-lg-5">من نحن</a></li>
-              <li><a href="index.html#portfolio" class="scroll-button smoothscroll">الاعمال</a></li>
-              <li><a href="index.html#services" class="scroll-button smoothscroll">الخدمات</a></li>
-              <li><a href="index.html#clients" class="scroll-button smoothscroll">العملاء</a></li>
-              <li><a href="index.html#Team" class="scroll-button smoothscroll">الفريق</a></li>
-              <li class="has-children">
-                <a href="#" class="scroll-button smoothscroll">المنتجات</a>
-                <ul class="dropdown">
-                  <li class="has-children">
-                    <a href="portfolio.html" class="scroll-button smoothscroll">تجارة الكترونية</a>
-                    <ul class="dropdown">
-                      <li><a href="mediat.html">Pharmacy Rocket</a></li>
-                      <li><a href="clothes.html">Wear Rocket</a></li>
-                      <li><a href="toys.html">Toys Rocket</a></li>
-                      <li><a href="bikes.html">Bikes Rocket</a></li>
-                      <li><a href="restaurant.html">Delivery Rocket</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="has-children">
-                    <a href="portfolio.html" class="scroll-button smoothscroll">نمازج</a>
-                    <ul class="dropdown">
-                      <li><a href="templates/life%20style/index.html">Responsive Lift Style Template</a></li>
-                      <li><a href="templates/lifecoach/index.html">Responsive Life Coaching Template</a></li>
-                      <li><a href="templates/alter/index.html">Responsive Business website template</a></li>
-
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-children">
-                <a href="index.html#contact" class="scroll-button smoothscroll">تواصل</a>
-                <ul class="dropdown">
-                  <li><a href="Egypt.html">مصر</a></li>
-                  <li><a href="Germany.html">المانيا</a></li>
-                  <li><a href="India.html">الهند</a></li>
-                  <li><a href="Bahrain.html">البحرين</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-
-          <div class="col-6 site-burger-menu d-block d-lg-none text-right">
-            <a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a>
-          </div>
-
-        </div>
-      </div>
-    </header>
+        <header class="site-navbar" id="top">
+            <div class="container-fluid">
+              <div class="row align-items-center">
+                <div class="site-logo col-6"><a href="index.html"><img id="logo-only" src="images/logo/logo.png" class="mt-2"
+                      alt="it ambition"><img id="logo-text" src="images/logo/logo_text.png" alt=""></a></div>
+      
+      
+      
+      
+                <nav class="mx-auto site-navigation" style="z-index: 1000000; ">
+                  <ul class="site-menu js-clone-nav d-none d-lg-block">
+                    <li class="has-children">
+                      <a href="portfolio.html" class="scroll-button smoothscroll">المنتجات</a>
+                      <ul class="dropdown">
+                        <li class="has-children">
+                          <a href="portfolio.html" class="scroll-button smoothscroll">تجارة الكترونية</a>
+                          <ul class="dropdown">
+                            <li><a href="mediat.html">Pharmacy Rocket</a></li>
+                            <li><a href="clothes.html">Wear Rocket</a></li>
+                            <li><a href="toys.html">Toys Rocket</a></li>
+                            <li><a href="bikes.html">Bikes Rocket</a></li>
+                            <li><a href="restaurant.html">Delivery Rocket</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="services.html" class="scroll-button smoothscroll">الخدمات</a></li>
+                    <li><a href="clients.html" class="scroll-button smoothscroll">العملاء</a></li>
+                    <li><a href="about.html" class="scroll-button smoothscroll">الشركة</a></li>
+                    <li><a href="about.html#Team" class="scroll-button smoothscroll">الفريق</a></li>
+                    <li><a href="http://itambition.com/blogs" class="scroll-button smoothscroll">المقالات</a></li>
+                    <li class="has-children">
+                      <a href="" class="scroll-button smoothscroll">تواصل</a>
+                      <ul class="dropdown">
+                        <li><a href="Egypt.html">مصر</a></li>
+                        <li><a href="Germany.html">المانيا</a></li>
+                        <li><a href="India.html">الهند</a></li>
+                        <li><a href="Bahrain.html">البحرين</a></li>
+                      </ul>
+                    </li>
+                    
+                  </ul>
+                </nav>
+      
+                <div class="col-6 site-burger-menu d-block d-lg-none text-right">
+                  <a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a>
+                </div>
+      
+              </div>
+            </div>
+          </header>
 
 
 
@@ -158,7 +147,7 @@
             <div class="row align-items-center justify-content-center">
               <div class="col-md-8 text-center">
                 <h1>Rocket Toys Shop</h1>
-                <h4>نحن نقدم تطبيق الويب و تطبيقات الجوار خلال اسبوعين بدعم كامل لمدة 3 اشهر</h4>
+                <h4>نحن نقدم تطبيق الويب و تطبيقات الهاتف خلال اسبوعين بدعم كامل لمدة 3 اشهر</h4>
                 <div class="mx-auto w-75">
                   <img src="images/logo/logo2.png" style="width: 10%;">
                 </div>
@@ -182,30 +171,30 @@
       <div class="container">
         <div class="row mb-5 text-center">
           <div class="col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
-            <strong class="d-block text-black">Category</strong>
-            E-Commerce
+            <strong class="d-block text-black">القسم</strong>
+            تجارة الكترونية
           </div>
           <div class="col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
-            <strong class="d-block text-black">Role</strong>
+            <strong class="d-block text-black">الدور</strong>
             Design, Front-End, Back-End and Mobile Apllication
           </div>
           <div class="col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
-            <strong class="d-block text-black">duration</strong>
-            2 weeks
+            <strong class="d-block text-black">المدرة</strong>
+            اسبوعين
           </div>
           <div class="col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
-            <strong class="d-block text-black">Demo</strong>
+            <strong class="d-block text-black">النسخة التجريبية</strong>
             <button type="button" class="btn btn-warning px-5" data-toggle="modal" data-target="#exampleModal">
-              Visit
+              شاهد
             </button>
           </div>
 
           <!-- Modal -->
           <div class="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 6;">
             <div class="modal-dialog" role="document" style="margin-top: 150px;">
-              <div class="modal-content">
+              <div class="modal-content" style="text-align: right;">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Toys Rocket permission</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">الدخول الي النسخة التجريبية</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -214,20 +203,24 @@
                 <div class="modal-body">
                   <form action="toys-permission.php" method="POST">
                       <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
+                        <label for="exampleInputEmail1">الاسم</label>
                         <input type="text" name="name" class="form-control required">
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <label for="exampleInputEmail1">البريد الالكتروني</label>
                         <input type="email" name="email" class="form-control required" id="exampleInputEmail1" aria-describedby="emailHelp">
                       <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputEmail1">Purpose</label>
+                        <label for="exampleInputEmail1">الغرض</label>
                         <input type="text" name="purpose" class="form-control required" id="exampleInputEmail1" aria-describedby="emailHelp">
                       </div>
 
-                        <button type="submit" class="btn btn-outline-success px-5">view Demo</button>
+                      <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LetgucUAAAAACnwMTafZrqSZC_VZPgzcE2jAkAQ"></div>
+                      </div>  
+
+                        <button type="submit" class="btn btn-outline-success px-5">النسخة التجريبية</button>
 
                   </form>
                 </div>
@@ -339,7 +332,7 @@
 
 
 
-        <footer class="site-footer slanted-footer">
+      <footer class="site-footer slanted-footer">
 
 
       <div class="container">
@@ -398,6 +391,7 @@
   </div>
 
   <!-- SCRIPTS -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
